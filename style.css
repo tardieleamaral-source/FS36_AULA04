@@ -8,9 +8,59 @@
 
 .subtitulo {
   color: #bebed7;
+  align-items: center;
+  gap: 10px;
 }
 
 .container {
     display: flex;
   background-color: black;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+#image {
+  width: 400px;
+  height: 300px;
+  border-radius: 10%;
+  margin: 20px;
+}
+
+.botao1 {
+  background-color: #c11010;
+  color: white;
+  padding: 30px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+
+}
+.botao2 {
+  background-color: #bebed7;
+  color: black;
+  padding: 30px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+}
+
+.container-botoes {
+  display: flex;
+  justify-content: left
+  align-items: center;
+  gap: 0px;
+  margin-bottom: 0px;
 }
